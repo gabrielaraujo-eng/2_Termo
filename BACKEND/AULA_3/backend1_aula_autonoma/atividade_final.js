@@ -29,7 +29,3 @@ console.log("Idade:",idade);
 console.log("Carga horaria:",carga_horaria);
 console.log("cidade:",cidade);
 console.log("Ano letivo:",ano_letivo);
-
-
-
-
