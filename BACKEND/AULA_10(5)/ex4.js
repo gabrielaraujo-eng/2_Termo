@@ -25,9 +25,11 @@ console.log(`Temperaturas registradas: ${temperaturas.join(" °C | ")} °C`) // 
 //2. mostrar a primeira temperatura  
 //3. mostrar a ultima temperatura
 
+const maior = Math.max(...temperaturas) // Math.max() retorna o maior valor de uma lista, o ... é o operador spread que transforma a lista em valores separados
 console.log("Quantidade de registro:")
 console.log(temperaturas.length)
 console.log("\nPrimeira temperatura:")
 console.log(temperaturas[0])
 console.log("\nUltima temperatura:")
 console.log(temperaturas[temperaturas.length -1])
+console.log(`Maior temperatura: ${maior}`)
